@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity tt_um_ZachDoman497_full_adder is
+entity tt_um_Jen_full_adder is
     port (
         ui_in   : in  std_logic_vector(7 downto 0);
         uo_out  : out std_logic_vector(7 downto 0);
@@ -13,9 +13,9 @@ entity tt_um_ZachDoman497_full_adder is
         clk     : in  std_logic;
         rst_n   : in  std_logic
     );
-end tt_um_ZachDoman497_full_adder;
+end tt_um_Jen_full_adder;
 
-architecture Behavioral of tt_um_ZachDoman497_full_adder is
+architecture Behavioral of tt_um_Jen_full_adder is
 
   signal X : std_logic;
 
